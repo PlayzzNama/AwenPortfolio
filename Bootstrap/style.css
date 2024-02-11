@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.trophy-img {
+     width: 100px;
+     height: 100px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.row:not(:first-child) {
+    padding-top: 20px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+.list-group {
+    height: 100px 
+}
+

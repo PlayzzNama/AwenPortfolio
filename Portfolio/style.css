@@ -1,0 +1,49 @@
+header {
+    background-color: #713838;
+    height: 100px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
+nav {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding-right: 35px;
+}
+
+
+
+h1 {
+    color: #9C8C35;
+    font-family: Inknut Antiqua;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.75px;
+    margin-left: 105px;
+    margin-top: 260px;
+}
+
+h1 span {
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 5.75px;
+}
+
+section {
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

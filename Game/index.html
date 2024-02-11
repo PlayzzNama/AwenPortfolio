@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Shield</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div class="statistic">
+    
+        <div class="des">Destroyed: <span id="destroyedCount">0</span></div>
+
+
+    <div id="shootLeft">
+        Shoot's left: <span id="shootCountDisplay">20</span>
+    </div>
+   </div>
+    <div class="container">
+   
+    <div id="imageContainer"></div>
+
+    <div class="GameName" id="gameName">Galactic Shield</div>
+    <button id="startButton" onclick="startGame()">Start</button>
+    <img src="./img/ship.png" alt="SpaceShip" id="ship">
+
+    <div id="splashContainer"></div>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <p id="scoreText">Good Job! <br> You`re Winner </p>
+          <button onclick="startGame()">Play Again</button>
+        </div>
+      </div>
+      
+
+    <div id="gameOver" class="modal">
+        <div class="modal-content">
+            <p id="scoreText">Game over! <br> Good luck next time</p>
+            <button onclick="playAgain()">Play Again</button>
+        </div>
+    </div>
+
+</div>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
